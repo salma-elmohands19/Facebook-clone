@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* start style nav */
+.nav{
+    height: 57px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    box-shadow: 0px 1px 3px #ccc;
+    padding: 16px;
+    background-color: white;
+    position: sticky;
+    z-index: 3;
+}
+.nav-left{ 
+    display: flex;
+}
+.fa-facebook{
+    color:blue ;
+    font-size: 32px;
+}
+.search{
+    position: relative;
+}
+.fa-search{
+    position: absolute;
+    color: #858282;
+    left: 155px;
+    top: 9px;
+}
+  .search input{
+    border: none;
+    background-color: #e7e3e3;
+    border-radius: 20px;
+    height: 33px;
+    margin-left: 10px;
+    padding: 14px;
+}
+.search input:focus{
+    outline: none;
+}
+/* nav-mid */
+.nav-mid{
+    display: flex;
+align-items: flex-end;
+}
+.nav-mid a{
+    color: #656464;
+    text-decoration: none;
+    font-size: 20px;
+   padding:1px 20px;
+  margin: 0px 10px;
+  border-radius: 8px;
+
+}
+.nav-mid .active{
+    border-bottom:2px solid blue;
+    color: blue;
+    border-radius: 0px;
+  
+}
+.nav-mid a:hover{
+    background-color: rgb(202, 202, 202);
+}
+/* end nav-mid */
+.nav-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    display: flex;
+    position: absolute;
+    right: 167px;
+    top: 15px;
+    padding:  0px 20px;
+}
+.profile img{
+    border-radius: 50%;
+}
+.profile h1{
+    font-size: 14px;
+    margin-top: 8px;
+}
+.nav-right a{
+    color: #111111;
+    background-color: #dfdbdb;
+    height: 30px;
+width: 30px;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 7px;
+    justify-content: center;
+    align-items: center;
+}
+.sec-all{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f2f5;
+
+}
+.slide-lef{
+    display: flex;
+    position: sticky;
+    width: 300px;
+    height: 100vh;
+    overflow: hidden;
+    top: 56px;
+    left: 0px ;
+}
+.slide-lef:hover{
+    overflow: scroll; 
+}
+.slide-lef ul{
+    list-style: none;
+
+}
+.slide-lef li{
+    display: flex;
+    align-items: center;
+    padding: 10px  10px  10px ;
+}
+.user{
+    border-radius: 50%;
+}
+.slide-lef  img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+.slide-lef p{
+    padding: 10px;
+}
+/* story part */
+.all-img{
+    display: flex;
+    margin-top: 25px;
+margin-right: 332px;
+
+}
+.firstleft{
+background-color: white;
+border-radius: 7px;
+margin-left: 7px;
+height: 150px;
+width: 100%;
+position: relative;
+overflow: hidden;
+box-shadow: 0 0 4px 4px #ddd;
+}
+.firstleft .icons{
+color: white;
+background-color: rgb(11, 84, 194);
+border: 2px solid white;
+border-radius: 50%;
+font-size: 20px;
+position: absolute;
+object-fit: cover;
+padding: 2px;
+transform: translate(-50%,-50%);
+top: 65%;
+left: 50%;
+}
+.firstleft p{
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+.small{
+    position: absolute;
+    border: 3px solid blue;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    
+}
+.second{
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+}
+.second2 p{
+    color: white;
+    position: absolute;
+    top: 120px;
+    left: 5px;
+    font-size: 12PX;
+    font-weight: bold;
+}
+/* start mind */
+.mind{
+    background-color: white;
+    width: 543px;
+    height:155px;
+    margin-top: 50px;   
+    box-shadow: 0 0 4px 4px #ddd;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.enter{
+    display: flex;
+    
+}
+.enter img{
+    border-radius: 50%;
+    padding: 1px;
+    margin-left: 39px;
+    margin-top: 19px;
+}
+.enter input{
+    background-color: #d9d6d6;
+    border-radius: 33px;
+    padding: 17px;
+    font-size: 13px;
+    width: 362px;
+    margin-left: 18px;
+    height: 45px;
+    margin-top: 19px;
+    border: none;
+}
+.enter input:hover{
+    background-color: rgba(0, 0, 0,0.05);
+
+}
+.enter input:focus{
+    border: none;
+    outline: none;
+}
+
+
+.line{
+    margin-top: 30px;
+ margin-left: 20px;
+ margin-right: 20px;
+}
+.under{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 194px;
+    z-index: 1;
+    align-items: center;
+    left: 196px;
+    text-align: center;
+}
+.caption{
+    text-decoration: none;
+    color: #858282;
+    display: flex;
+    margin-left: 3px;
+}
+ .firstu{
+    margin-left: 59px;
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 19PX;
+}
+.firstu:hover{
+    background-color: rgba(0, 0, 0,0.05);
+    border-radius: 10px;
+    }
+
+.fa-video{
+    color: rgba(255, 0, 0, 0.655);
+}
+.fa-images{
+color: rgb(28, 240, 28);
+}
+.fa-laugh{
+    color: rgb(255, 140, 0);
+}
+/* fisrt post */
+.postDetails{
+    background-color: white;
+    width: 550px;
+    height: 590px;
+    box-shadow: 0 0 4px 4px #ddd;
+    margin-top: 50px;
+    border-radius: 10px;
+    position: relative;
+
+}
+.postDetail img{
+    border-radius: 50%;
+    margin: 15px;
+
+}
+
+.postDetail{
+    display: flex;
+}
+.postDetails i{
+    display: flex;
+    margin-left: 520px;
+    margin-top: -49px;
+    font-size: 22px;
+}
+
+.title{
+    margin-top: 17px;
+    font-size: 15px;
+}
+.title p{
+    color: #858282;
+    font-size:10px;
+
+}
+.thepost{
+    position: absolute;
+}
+.thepost p{
+    top: 580px;
+    position: absolute;
+    width: 300px;
+    left: 25px;
+    font-size: 19px;
+}
+.thepost img{
+    top: 640px;
+    position: absolute;
+    left: 22px;
+    width: 500px;
+}
+.line2{
+    position: absolute;
+    top: 1014px;
+    width: 502px;
+    right: 338px;
+}
+
+.reacts{
+    display: flex;
+   
+}
+.react{
+    display: flex;
+    margin-left: 89px;
+    z-index: 1;
+    margin-top: -35px;
+    padding-right: 8px;
+    color: #656464;
+}
+/* post2 */
+.postDetails2{
+    background-color: white;
+    width: 550px;
+    height: 290px;
+    box-shadow: 0 0 4px 4px #ddd;
+    margin-top: 50px;
+    border-radius: 10px;
+    position: relative;
+}
+.thepost2 p{
+    top: 1240px;
+    position: absolute;
+    width: 300px;
+    left: 448px;
+    font-size: 27px;
+  
+}
+.line3{
+    z-index: 1;
+    position: absolute;
+    top: 1353px;
+    width: 502px;
+    right: 338px;
+}
+.postDetails2 i{
+    display: flex;
+    margin-left: 495px;
+    margin-top: -47PX;
+    FONT-SIZE: 22px;
+}
